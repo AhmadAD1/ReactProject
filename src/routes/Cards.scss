@@ -1,0 +1,123 @@
+.b-img{
+display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    object-fit: cover;
+    max-height: 180px;
+     min-height: 180px;
+    width: 262px;
+    height: 180px;
+}
+.b-title{
+    
+    margin: 0px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        // line-height: 1.334;
+        letter-spacing: 0em;
+        display: block;
+      
+}
+.sub-title{
+    margin: 0px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        // line-height: 1.5;
+        letter-spacing: 0.00938em;
+        color: rgba(0, 0, 0, 0.6);
+        display: block;
+}
+.b-card{
+    // background-color: rgb(255, 255, 255);
+        color: rgba(0, 0, 0, 0.87);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 5px 8px 0px, rgba(0, 0, 0, 0.12) 0px 1px 14px 0px;
+        min-height: 445px;
+        border: 1px solid;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        margin-top: auto;
+        width: 262px;
+        justify-content: space-evenly;
+        position: relative;
+      
+        
+
+       
+}
+.phone{
+    margin: 0px;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.43;
+        letter-spacing: 0.01071em;
+        
+}
+.address{
+margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+}
+.read-more{
+    color: black;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+
+}
+.read-more:hover{
+    color: red;
+
+}
+.fav:hover{
+    color: red;
+}
+.favor{
+    position: absolute;
+        bottom: 0;
+        
+}
+.fav{
+ 
+        position: absolute;
+            left: 210px;
+            bottom: 2px;
+            width: 100%;
+            padding: 0.5rem;
+}
+.mycardfav{
+    position: absolute;
+        left: 180px;
+        bottom: 2px;
+        width: 100%;
+        padding: 0.5rem;
+}
+.countiner-cards{
+    width: 100%;
+        margin: 0 auto;
+       
+}
+.search-card{
+   
+    width:15rem;
+    margin: 1.5rem auto;
+    
+   
+
+}
+.search-icon{
+    align-items: center;
+    margin: 0 auto;
+}
+.did-like{
+    color: red;
+}
